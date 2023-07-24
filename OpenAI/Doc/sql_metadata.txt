@@ -1,0 +1,17 @@
+{As a DATA Engineer, write a SQL to retrive the data using below metadata
+{type:
+    "TABLE_NAME": "MUTUAL_FUND",
+    "COLUMNS": ["FUND_NAME","MANAGER_NAME","DATE","AUM"],
+    "COLUMNS_DATATYPE": ["VARCHAR","VARCHAR","DATE","FLOAT"],
+    "TABLE_DESCRIPTION": "This table holds the all the AUM (Assets under management) including the fund names
+    and portfolio manager name with the inception date",
+    "COLUMNS_DESCRIPTION": {
+        "FUND_NAME": "This the mutual fund name.",
+        "MANAGER_NAME": "Manager - who is handeling the fund also know as portfolio manager",
+        "DATE": "Mutual fund start date"., "Date Format": "YYYY-MM-DD",
+        "AUM": "Total amount/money present in fund - Assets under management"
+
+    }
+
+}
+}
